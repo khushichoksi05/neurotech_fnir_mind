@@ -20,7 +20,7 @@ def read_nirs_files(directory_path, file_extension=".snirf"):
     return nirs_data
 
 if __name__ == "__main__":
-    directory_path = r"C:\Users\saish\Downloads\motion_artifacts_2\motion_artifacts_2"
+    directory_path = r"C:\Users\takoy\fnirs-github\neurotech_fnir_mind\data"
     nirs_files = read_nirs_files(directory_path)
     
     # Access individual file data
